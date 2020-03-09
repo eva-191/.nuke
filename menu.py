@@ -61,8 +61,14 @@ utilitiesMenu.addCommand('Autocrop', 'nukescripts.autocrop()')
 myGizmosMenu = nuke.menu('Nodes').addMenu('myGizmos', icon="myGizmos_bender.png")
 myGizmosMenu.addCommand('Autocrop', 'nukescripts.autocrop()')
 
+
+
+
+# ADD GIZMOS TO MYGIZMOS MENU ---------------------
+
 myGizmosMenu.addCommand('bm_CameraShake', 'nuke.createNode("bm_CameraShake")', icon="bm_CameraShake_icon.png")
 myGizmosMenu.addCommand('MonochromePlus', 'nuke.createNode("MonochromePlus")')
+myGizmosMenu.addCommand('mS_MarkerRemoval_Advanced', 'nuke.createNode("mS_MarkerRemoval_Advanced")')
 
 
 # -----------------------------------------------
