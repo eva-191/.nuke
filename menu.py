@@ -43,7 +43,7 @@ nuke.knobDefault('STMap.uv', 'rgb')
 nuke.knobDefault('STMap.label', '[value filter]')
 nuke.knobDefault('Tracker4.label', "Motion: [value transform]\nRef Frame: [value reference_frame]")
 nuke.addOnUserCreate(lambda:nuke.thisNode()['reference_frame'].setValue(nuke.frame()), nodeClass='Tracker4')
-
+nuke.addOnUserCreate(lambda:nuke.thisNode()['first_frame'].setValue(nuke.frame()), nodeClass='FrameHold')
 
 
 
@@ -55,16 +55,19 @@ nuke.addOnUserCreate(lambda:nuke.thisNode()['reference_frame'].setValue(nuke.fra
 
 
 utilitiesMenu = nuke.menu('Nuke').addMenu('Utilities')
-
 utilitiesMenu.addCommand('Autocrop', 'nukescripts.autocrop()')
 
-myGizmosMenu = nuke.menu('Nodes').addMenu('myGizmos', icon=dir+"/icons/myGizmos_bender.png")
 
+myGizmosMenu = nuke.menu('Nodes').addMenu('myGizmos', icon="myGizmos_bender.png")
 myGizmosMenu.addCommand('Autocrop', 'nukescripts.autocrop()')
 
+myGizmosMenu.addCommand('bm_CameraShake', 'nuke.createNode("bm_CameraShake")', icon="bm_CameraShake_icon.png")
 
 
 
+# -----------------------------------------------
+# KEYBOARD SHORTCUTS ::::::::::::::::::::::::::::
+# -----------------------------------------------
 
-
-
+nuke.menu('Nodes').addCommand("Transform/Tracker", "nuke.createNode('
+    [pasted text truncated for security]
