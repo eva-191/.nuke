@@ -1,7 +1,7 @@
 # -----------------------------------------------
 # menu.py
 # Version: 1.0.0
-# Last Updated: March 9th, 2020
+# Last Updated: March 10th, 2020
 # -----------------------------------------------
 
 
@@ -64,14 +64,10 @@ myGizmosMenu.addCommand('Autocrop', 'nukescripts.autocrop()')
 
 
 
-# ADD GIZMOS TO MYGIZMOS MENU ---------------------
+
+# ADD GIZMOS --------------------------------------------------------------------------------------------
 
 myGizmosMenu.addCommand('bm_CameraShake', 'nuke.createNode("bm_CameraShake")', icon="bm_CameraShake_icon.png")
 myGizmosMenu.addCommand('MonochromePlus', 'nuke.createNode("MonochromePlus")')
-myGizmosMenu.addCommand('mS_MarkerRemoval_Advanced', 'nuke.createNode("mS_MarkerRemoval_Advanced")')
-
-
-# -----------------------------------------------
-# KEYBOARD SHORTCUTS ::::::::::::::::::::::::::::
-# ---------------------------------------
+myGizmosMenu.addCommand('mS_Mark
     [pasted text truncated for security]
