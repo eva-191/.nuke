@@ -12,6 +12,7 @@
 import nuke
 import platform
 import nukescripts
+import shuffleShortcuts
 
 # Define where .nuke directory is on each OS's network.
 Win_Dir = ''
