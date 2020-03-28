@@ -7,4 +7,5 @@
 
 nuke.pluginAddPath('./gizmos')
 nuke.pluginAddPath('./python')
+nuke.pluginAddPath('./python/shuffleShortcuts')
 nuke.pluginAddPath('./icons')
