@@ -1,7 +1,7 @@
 # -----------------------------------------------
 # menu.py
 # Version: 1.0.0
-# Last Updated: March 10th, 2020
+# Last Updated: April 20th, 2020
 # -----------------------------------------------
 
 
@@ -47,7 +47,8 @@ nuke.addOnUserCreate(lambda:nuke.thisNode()['reference_frame'].setValue(nuke.fra
 nuke.addOnUserCreate(lambda:nuke.thisNode()['first_frame'].setValue(nuke.frame()), nodeClass='FrameHold')
 
 
-
+nuke.knobDefault('Reformat.label', '[value resize]')
+nuke.knobDefault('Reformat.resize', 'height')
 
 
 # -----------------------------------------------
