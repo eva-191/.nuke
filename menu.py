@@ -1,18 +1,19 @@
 # -----------------------------------------------
 # menu.py
-# Version: 1.0.0
-# Last Updated: April 20th, 2020
+# Version: 1.0.4
+# Last Updated: April 21th, 2020
 # -----------------------------------------------
 
 
-# -----------------------------------------------
-# GLABAL IMPORTS ::::::::::::::::::::::::::::::::
-# -----------------------------------------------
+# ------------------------------------------------------------------------------------------------------------
+# GLABAL IMPORTS :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# ------------------------------------------------------------------------------------------------------------
 
 import nuke
 import platform
 import nukescripts
 import shuffleShortcuts
+
 
 # Define where .nuke directory is on each OS's network.
 Win_Dir = ''
@@ -33,9 +34,9 @@ else:
 
 
 
-# -----------------------------------------------
-# KNOB DEFAULTS :::::::::::::::::::::::::::::::::
-# -----------------------------------------------
+# ------------------------------------------------------------------------------------------------------------
+# KNOB DEFAULTS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -47,29 +48,11 @@ nuke.addOnUserCreate(lambda:nuke.thisNode()['reference_frame'].setValue(nuke.fra
 nuke.addOnUserCreate(lambda:nuke.thisNode()['first_frame'].setValue(nuke.frame()), nodeClass='FrameHold')
 
 
-nuke.knobDefault('Reformat.label', '[value resize]')
-nuke.knobDefault('Reformat.resize', 'height')
 
 
-# -----------------------------------------------
-# CUSTOM MENUS ::::::::::::::::::::::::::::::::::
-# -----------------------------------------------
+# ------------------------------------------------------------------------------------------------------------
+# AETHER DEFAULTS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# ------------------------------------------------------------------------------------------------------------
 
-
-utilitiesMenu = nuke.menu('Nuke').addMenu('Utilities')
-utilitiesMenu.addCommand('Autocrop', 'nukescripts.autocrop()')
-
-
-myGizmosMenu = nuke.menu('Nodes').addMenu('myGizmos', icon="myGizmos_bender.png")
-myGizmosMenu.addCommand('Autocrop', 'nukescripts.autocrop()')
-
-
-
-
-
-# ADD GIZMOS --------------------------------------------------------------------------------------------
-
-myGizmosMenu.addCommand('bm_CameraShake', 'nuke.createNode("bm_CameraShake")', icon="bm_CameraShake_icon.png")
-myGizmosMenu.addCommand('MonochromePlus', 'nuke.createNode("MonochromePlus")')
-myGizmosMenu.addCommand('mS_Mark
+nuke.knobDefault('Root.fo
     [pasted text truncated for security]
