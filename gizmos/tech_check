@@ -1,0 +1,620 @@
+set cut_paste_input [stack 0]
+version 12.2 v9
+push $cut_paste_input
+Group {
+name tech1
+selected true
+xpos 5487
+ypos 1092
+addUserKnob {20 TC}
+addUserKnob {6 TextColor_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+addUserKnob {4 Mode M {All Comp Plate "CheckBoard A/B" Difference Grain Saturation IllegalValues ""}}
+Mode Grain
+addUserKnob {7 CheckerBoard l "CheckerBoard A/B (Size)" R 0 200}
+CheckerBoard 147
+addUserKnob {7 Difference l "Difference (Multiplier)" R 1 100}
+Difference 59.5
+addUserKnob {7 Exposure l "Exposure (+/- Stops)" R 1 6}
+Exposure 2.94
+addUserKnob {7 Grain l "Grain (Multiplier)" R 1 100}
+Grain 1
+addUserKnob {7 IllegalValuesHigh l "Illegal Values (High)" R 0 50}
+IllegalValuesHigh 50
+addUserKnob {7 IllegalValuesLow l "Illegal Values (Low)" R 0 50}
+addUserKnob {7 Saturation R 1 6}
+Saturation 3
+addUserKnob {7 PixelAspect l "Pixel Aspect" R 1 2}
+PixelAspect 2
+addUserKnob {7 Scale -STARTLINE}
+Scale 1
+addUserKnob {7 TextSize l "Text Size" R 1 200}
+TextSize 1
+addUserKnob {6 TextOverlay l "Text Overlay" -STARTLINE}
+TextOverlay true
+addUserKnob {19 TextColor l "Text Color"}
+TextColor 1
+addUserKnob {6 TextColor_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+}
+Input {
+ inputs 0
+ name Comp
+ xpos -584
+ ypos 119
+}
+Dot {
+ name Dot26
+ xpos -550
+ ypos 285
+}
+set Nf8708800 [stack 0]
+Dot {
+ name Dot32
+ xpos -353
+ ypos 285
+}
+set Nf8708100 [stack 0]
+Dot {
+ name Dot42
+ xpos -149
+ ypos 285
+}
+set Nf14cb900 [stack 0]
+Dot {
+ name Dot33
+ xpos 9
+ ypos 285
+}
+set Nf14cb200 [stack 0]
+Dot {
+ name Dot27
+ xpos 588
+ ypos 285
+}
+set Nf14cab00 [stack 0]
+Dot {
+ name Dot40
+ xpos 894
+ ypos 285
+}
+set Nf14ca400 [stack 0]
+ClipTest {
+ channels {rgba.red rgba.green rgba.blue -rgba.alpha}
+ lower {{IllegalValuesLow}}
+ upper {{IllegalValuesHigh}}
+ name ClipTest1
+ xpos 860
+ ypos 497
+}
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message "ILLEGAL VALUES | HIGH: \[value IllegalValuesHigh] LOW: \[value IllegalValuesLow]"
+ old_message {{73 76 76 69 71 65 76 32 86 65 76 85 69 83 32 124 32 72 73 71 72 58 32 53 48 32 76 79 87 58 32 48}
+   }
+ old_expression_markers {{23 24 31 31}
+   }
+ box {{width-width} {height-height} {width} {height}}
+ xjustify center
+ yjustify bottom
+ transforms {{0 2}
+   }
+ font_size_values {{0 100 1 100 2 100 3 100 4 100 5 100 6 100 7 100 8 100 9 100 10 100 11 100 12 100 13 100 14 100 15 100 0 103 1 103 2 103 3 103 4 103 5 103 6 103 7 103 8 103 9 103 10 103 11 103 12 103 13 103 14 103 15 103}
+   }
+ cursor_position 78
+ font {{ Arial : Regular : msttcorefonts/arial.ttf : 0 }}
+ global_font_scale {{TextSize}}
+ scale {1 1}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 2272}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1079 1136 0 0 1 1 0 0 0 0}
+   }
+ color {{TextColor} {TextColor} {TextColor} {TextColor}}
+ name Text9
+ label "\[value message]"
+ xpos 860
+ ypos 732
+ disable {{!TextOverlay}}
+}
+Dot {
+ name Dot57
+ xpos 894
+ ypos 770
+}
+set Nf11ae400 [stack 0]
+push $Nf14ca400
+Dot {
+ name Dot56
+ xpos 1076
+ ypos 285
+}
+Saturation {
+ saturation {{Saturation}}
+ name Saturation1
+ xpos 1042
+ ypos 501
+}
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message "SATURATION: \[value Saturation]"
+ old_message {{83 65 84 85 82 65 84 73 79 78 58 32 51}
+   }
+ old_expression_markers {{12 12}
+   }
+ box {{width-width} {height-height} {width} {height}}
+ xjustify center
+ yjustify bottom
+ transforms {{0 2}
+   }
+ font_size_values {{0 100 1 100 2 100 3 100 4 100 5 100 6 100 7 100 8 100 9 100 10 100 11 100 12 100 0 103 1 103 2 103 3 103 4 103 5 103 6 103 7 103 8 103 9 103 10 103 11 103 12 103}
+   }
+ cursor_position 30
+ font {{ Arial : Regular : msttcorefonts/arial.ttf : 0 }}
+ global_font_scale {{TextSize}}
+ scale {1 1}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 2272}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1079 1136 0 0 1 1 0 0 0 0}
+   }
+ color {{TextColor} {TextColor} {TextColor} {TextColor}}
+ name Text11
+ label "\[value message]"
+ xpos 1042
+ ypos 732
+ disable {{!TextOverlay}}
+}
+Dot {
+ name Dot55
+ xpos 1076
+ ypos 770
+}
+set Nf11a2b00 [stack 0]
+push $Nf14cab00
+Dot {
+ name Dot29
+ xpos 588
+ ypos 434
+}
+set Nf11a2400 [stack 0]
+Dot {
+ name Dot28
+ xpos 698
+ ypos 434
+}
+Blur {
+ size 3
+ name Blur7
+ xpos 664
+ ypos 467
+}
+push $Nf11a2400
+Merge2 {
+ inputs 2
+ operation minus
+ name Merge12
+ xpos 554
+ ypos 473
+}
+Grade {
+ channels rgba
+ white 100
+ multiply {{Grain}}
+ name Grade1
+ xpos 554
+ ypos 499
+}
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message GRAIN
+ old_message {{71 82 65 73 78}
+   }
+ box {{width-width} {height-height} {width} {height}}
+ xjustify center
+ yjustify bottom
+ transforms {{0 2}
+   }
+ font_size_values {{0 100 1 100 2 100 3 100 4 100 0 103 1 103 2 103 3 103 4 103}
+   }
+ cursor_position 5
+ font {{ Arial : Regular : msttcorefonts/arial.ttf : 0 }}
+ global_font_scale {{TextSize}}
+ scale {1 1}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 2272}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1079 1136 0 0 1 1 0 0 0 0}
+   }
+ color {{TextColor} {TextColor} {TextColor} {TextColor}}
+ name Text12
+ label "\[value message]"
+ xpos 554
+ ypos 732
+ disable {{!TextOverlay}}
+}
+Dot {
+ name Dot43
+ xpos 588
+ ypos 770
+}
+set Nf116ab00 [stack 0]
+Input {
+ inputs 0
+ name Plate
+ xpos 312
+ ypos 112
+ number 1
+}
+Dot {
+ name Dot51
+ xpos 346
+ ypos 224
+}
+set Nf1169d00 [stack 0]
+Dot {
+ name Dot37
+ xpos -277
+ ypos 224
+}
+set Nf1169600 [stack 0]
+Dot {
+ name Dot54
+ xpos -277
+ ypos 468
+}
+push $Nf8708100
+Merge2 {
+ inputs 2
+ operation difference
+ name Merge13
+ xpos -387
+ ypos 465
+}
+Grade {
+ channels rgba
+ multiply {{tech1.Difference}}
+ name Grade2
+ xpos -387
+ ypos 491
+}
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message DIFFERENCE
+ old_message {{68 73 70 70 69 82 69 78 67 69}
+   }
+ box {{width-width} {height-height} {width} {height}}
+ xjustify center
+ yjustify bottom
+ transforms {{0 2}
+   }
+ font_size_values {{0 100 1 100 2 100 3 100 4 100 5 100 6 100 7 100 8 100 9 100 0 103 1 103 2 103 3 103 4 103 5 103 6 103 7 103 8 103 9 103}
+   }
+ font {{ Arial : Regular : msttcorefonts/arial.ttf : 0 }}
+ global_font_scale {{TextSize}}
+ scale {1 1}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 2272}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1079 1136 0 0 1 1 0 0 0 0}
+   }
+ color {{TextColor} {TextColor} {TextColor} {TextColor}}
+ name Text16
+ label "\[value message]"
+ selected true
+ xpos -387
+ ypos 732
+ disable {{!TextOverlay}}
+}
+Dot {
+ name Dot31
+ xpos -353
+ ypos 770
+}
+set Nf112e400 [stack 0]
+CheckerBoard2 {
+ inputs 0
+ boxsize {{CheckerBoard}}
+ color0 1
+ color1 0
+ color2 1
+ color3 0
+ linecolor 0
+ centerlinewidth 0
+ name CheckerBoard2
+ xpos -710
+ ypos 441
+}
+push $Nf1169600
+Dot {
+ name Dot52
+ xpos -474
+ ypos 224
+}
+Dot {
+ name Dot53
+ xpos -474
+ ypos 469
+}
+push $Nf8708800
+Keymix {
+ inputs 3
+ name Keymix1
+ xpos -584
+ ypos 459
+}
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message "CHECKERBOARD A/B"
+ old_message {{67 72 69 67 75 69 82 66 79 65 82 68 32 65 47 66}
+   }
+ box {{width-width} {height-height} {width} {height}}
+ xjustify center
+ yjustify bottom
+ transforms {{0 2}
+   }
+ font_size_values {{0 100 1 100 2 100 3 100 4 100 5 100 6 100 7 100 8 100 9 100 10 100 11 100 12 100 13 100 14 100 15 100 0 103 1 103 2 103 3 103 4 103 5 103 6 103 7 103 8 103 9 103 10 103 11 103 12 103 13 103 14 103 15 103}
+   }
+ cursor_position 16
+ font {{ Arial : Regular : msttcorefonts/arial.ttf : 0 }}
+ global_font_scale {{TextSize}}
+ scale {1 1}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 2272}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1079 1136 0 0 1 1 0 0 0 0}
+   }
+ color {{TextColor} {TextColor} {TextColor} {TextColor}}
+ name Text18
+ label "\[value message]"
+ xpos -584
+ ypos 729
+ disable {{!TextOverlay}}
+}
+Dot {
+ name Dot1
+ xpos -550
+ ypos 767
+}
+set Nf1107200 [stack 0]
+push $Nf1169d00
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message PLATE
+ old_message {{80 76 65 84 69}
+   }
+ box {{width-width} {height-height} {width} {height}}
+ xjustify center
+ yjustify bottom
+ transforms {{0 2}
+   }
+ font_size_values {{0 100 1 100 2 100 3 100 4 100 0 103 1 103 2 103 3 103 4 103}
+   }
+ cursor_position 5
+ font {{ Arial : Regular : msttcorefonts/arial.ttf : 0 }}
+ global_font_scale {{TextSize}}
+ scale {1 1}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 2272}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1079 1136 0 0 1 1 0 0 0 0}
+   }
+ color {{TextColor} {TextColor} {TextColor} {TextColor}}
+ name Text17
+ label "\[value message]"
+ xpos 312
+ ypos 733
+ disable {{!TextOverlay}}
+}
+Dot {
+ name Dot38
+ xpos 346
+ ypos 771
+}
+set Nf1104800 [stack 0]
+push $Nf14cb900
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message COMP
+ old_message {{67 79 77 80}
+   }
+ box {{width-width} {height-height} {width} {height}}
+ xjustify center
+ yjustify bottom
+ transforms {{0 2}
+   }
+ font_size_values {{0 100 1 100 2 100 3 100 0 103 1 103 2 103 3 103}
+   }
+ cursor_position 4
+ font {{ Arial : Regular : msttcorefonts/arial.ttf : 0 }}
+ global_font_scale {{TextSize}}
+ scale {1 1}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 2272}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1079 1136 0 0 1 1 0 0 0 0}
+   }
+ color {{TextColor} {TextColor} {TextColor} {TextColor}}
+ name Text14
+ label "\[value message]"
+ xpos -183
+ ypos 732
+ disable {{!TextOverlay}}
+}
+Dot {
+ name Dot36
+ xpos -149
+ ypos 770
+}
+set Nf12b9d00 [stack 0]
+push $Nf11ae400
+push $Nf11a2b00
+push $Nf116ab00
+push $Nf14cb200
+Dot {
+ name Dot34
+ xpos 9
+ ypos 423
+}
+set Nf12b9600 [stack 0]
+Dot {
+ name Dot35
+ xpos 119
+ ypos 423
+}
+EXPTool {
+ mode Stops
+ red {{tech1.Exposure}}
+ green {{tech1.Exposure}}
+ blue {{tech1.Exposure}}
+ name Exposure2
+ xpos 85
+ ypos 457
+}
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message "EXPOSURE \[value Exposure2.red]"
+ old_message {{69 88 80 79 83 85 82 69 32 50 46 57 52}
+   }
+ old_expression_markers {{9 12}
+   }
+ box {{width-width} {height-height} {width} {height}}
+ xjustify center
+ yjustify bottom
+ transforms {{0 2}
+   }
+ font_size_values {{0 100 1 100 2 100 3 100 4 100 5 100 6 100 7 100 8 100 9 100 0 103 1 103 2 103 3 103 4 103 5 103 6 103 7 103 8 103 9 103}
+   }
+ cursor_position 30
+ font {{ Arial : Regular : msttcorefonts/arial.ttf : 0 }}
+ global_font_scale {{TextSize}}
+ scale {1 1}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 2272}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1079 1136 0 0 1 1 0 0 0 0}
+   }
+ color {{TextColor} {TextColor} {TextColor} {TextColor}}
+ name Text13
+ label "\[value message]"
+ xpos 85
+ ypos 732
+ disable {{!TextOverlay}}
+}
+Dot {
+ name Dot41
+ xpos 119
+ ypos 770
+}
+push $Nf12b9d00
+push $Nf12b9600
+EXPTool {
+ mode Stops
+ red {{tech1.Exposure*-1}}
+ green {{tech1.Exposure*-1}}
+ blue {{tech1.Exposure*-1}}
+ name Exposure1
+ xpos -25
+ ypos 457
+}
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message "EXPOSURE \[value Exposure1.red]"
+ old_message {{69 88 80 79 83 85 82 69 32 45 50 46 57 52}
+   }
+ old_expression_markers {{9 13}
+   }
+ box {{width-width} {height-height} {width} {height}}
+ xjustify center
+ yjustify bottom
+ transforms {{0 2}
+   }
+ font_size_values {{0 100 1 100 2 100 3 100 4 100 5 100 6 100 7 100 8 100 9 100 10 100 0 103 1 103 2 103 3 103 4 103 5 103 6 103 7 103 8 103 9 103 10 103}
+   }
+ cursor_position 30
+ font {{ Arial : Regular : msttcorefonts/arial.ttf : 0 }}
+ global_font_scale {{TextSize}}
+ scale {1 1}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 2272}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1079 1136 0 0 1 1 0 0 0 0}
+   }
+ color {{TextColor} {TextColor} {TextColor} {TextColor}}
+ name Text15
+ label "\[value message]"
+ xpos -25
+ ypos 732
+ disable {{!TextOverlay}}
+}
+Dot {
+ name Dot39
+ xpos 9
+ ypos 770
+}
+push $Nf112e400
+push $Nf1104800
+push $Nf1107200
+ContactSheet {
+ inputs 9
+ width {{"(\[topnode]input.width)*Scale*columns"}}
+ height {{"((\[topnode]input.height)*1/PixelAspect)*Scale*rows"}}
+ columns 3
+ center true
+ roworder TopBottom
+ name ContactSheet1
+ xpos -584
+ ypos 989
+}
+Dot {
+ name Dot3
+ xpos -550
+ ypos 1203
+}
+Switch {
+ inputs 8
+ which {{Mode}}
+ name Switch1
+ xpos 16
+ ypos 1200
+}
+Output {
+ name Output1
+ xpos -127
+ ypos 1438
+}
+end_group
