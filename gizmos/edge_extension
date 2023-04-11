@@ -1,0 +1,2263 @@
+set cut_paste_input [stack 0]
+version 11.3 v6
+Roto {
+inputs 0
+cliptype none
+curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097664}
+    {t 0}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup BSpline1 512 bspline
+     {{cc
+       {f 8192}
+       {px x4481c000
+        {{a t
+       {{x4481c000 x3f743958}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x45257000 xc1700000}
+        {{a t
+       {{x4481c000 x3f7ced91}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x45222000 x41700000}
+        {{a t
+       {{x4481c000 x3f7df3b6}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x4520d000 x426c0000}
+        {{a t
+       {{x4481c000 x3f7df3b6}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x451fa000 x42e00000}
+        {{a t
+       {{x4481c000 x3f820c4a}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x451ea000 x4328ffff}
+        {{a t
+       {{x4481c000 x3f824dd3}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x451f6000 x434fffff}
+        {{a t
+       {{x4481c000 1}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x45207000 x43640000}
+        {{a t
+       {{x4481c000 x3f808312}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x4520c000 x438f0000}
+        {{a t
+       {{x4481c000 x3f828f5c}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x4521a000 x43a80000}
+        {{a t
+       {{x4481c000 x3f7ef9db}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x45223000 x43b58000}
+        {{a t
+       {{x4481c000 x3f845a1d}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x4521e000 x43cc8000}
+        {{a t
+       {{x4481c000 x3f83126f}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x45249000 x43e10000}
+        {{a t
+       {{x4481c000 x3f808312}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x4525a000 x43efffff}
+        {{a t
+       {{x4481c000 x3f824dd3}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x45243000 x44030000}
+        {{a t
+       {{x4481c000 x3f8e978d}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x4525d000 x44078000}
+        {{a t
+       {{x4481c000 x3f92f1aa}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x45301ccc x44345fff}
+        {{a t
+       {{x4481c000 x3f8b020c}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x4533d000 x442c8000}
+        {{a t
+       {{x4481c000 x3f9126ea}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x453d8000 x44170000}
+        {{a t
+       {{x4481c000 x3f6978d5}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x453e6199 x43bed99b}
+        {{a t
+       {{x4481c000 x3f7be76d}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x453f9000 x42000000}
+        {{a t
+       {{x4481c000 x3f46a7f0}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x453dc000 xc0000000}
+        {{a t
+       {{x4481c000 x3f5d2f1a}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x453b7ccd xc23f9998}
+        {{a t
+       {{x4481c000 x3f7a5e35}}	 rp
+       {{x4481c000 1}}	 te
+       {{x4481c000 x40800000}}}     x452ffb33 xc2c10000}}}     idem}
+     {tx x4481c000 x4529c000 x43899bd3}
+     {a osw x41200000 osf 0 str 1 spx x45000000 spy x44870000 sb 1 ltn x4481c000 ltm x4481c000 tt x40c00000}}}}}}
+toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 tt 5 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 tt 6 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { addPoints str 1 ssx 1 ssy 1 sf 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+toolbar_brush_hardness 0.200000003
+toolbar_onion_skin_mix 1
+toolbar_source_transform_scale {1 1}
+toolbar_source_transform_center {2048 1080}
+colorOverlay {0 0 0 0}
+lifetime_type "all frames"
+lifetime_start 1038
+lifetime_end 1038
+motionblur_mode global
+motionblur_shutter_offset_type centred
+source_black_outside true
+name Roto18
+selected true
+xpos 6906
+ypos 422
+}
+Group {
+name edge_smooth4
+tile_color 0xed5e5ff
+selected true
+xpos 6906
+ypos 446
+mapsize {0.15 0.15}
+addUserKnob {20 KeyChew}
+addUserKnob {26 ""}
+addUserKnob {41 chew T A.chew}
+addUserKnob {41 soften T A.soften}
+addUserKnob {6 anamorphicAware t "DOES NOTHING NOW!" +STARTLINE}
+addUserKnob {41 maximum_enable l "clamp values over 1" T Clamp3.maximum_enable}
+addUserKnob {6 inFrame l "in frame only" t "Crop to the image frame." +STARTLINE}
+addUserKnob {22 customBox l "custom crop" t "Select a custom crop area." -STARTLINE T "node = nuke.thisNode()\nif node\['inFrame'].value():\n\tnode\['bbox'].clearAnimated()\n\tnode.knobs()\['bbox'].setVisible( True )\n\tnode.knobs()\['inFrame'].setEnabled( False )\n"}
+addUserKnob {22 clearCustomBox l "reset crop" t "Clear the custom copped area." -STARTLINE T "node = nuke.thisNode()\nif node\['inFrame'].value():\n\tnode\['bbox'].setExpression( '\[python nuke.thisNode().input(0).format().x()]', 0 )\n\tnode\['bbox'].setExpression( '\[python nuke.thisNode().input(0).format().y()]', 1 )\n\tnode\['bbox'].setExpression( '\[python nuke.thisNode().input(0).format().r()]', 2 )\n\tnode\['bbox'].setExpression( '\[python nuke.thisNode().input(0).format().t()]', 3 )\n\tnode.knobs()\['bbox'].setVisible( False )\n\tnode.knobs()\['inFrame'].setEnabled( True )"}
+addUserKnob {41 bbox l "" t "Custom crop area." +STARTLINE +HIDDEN T Crop1.box}
+}
+Input {
+inputs 0
+name A
+xpos -142
+ypos -297
+addUserKnob {20 User}
+addUserKnob {7 chew R -100 100}
+chew 8
+addUserKnob {7 soften R 0 200}
+}
+AddChannels {
+channels alpha
+name AddChannels1
+label "Done to avoid error messages."
+xpos -142
+ypos -271
+}
+Crop {
+box {{"\[python nuke.thisNode().input(0).format().x()]"} {"\[python nuke.thisNode().input(0).format().y()]"} {"\[python nuke.thisNode().input(0).format().r()]"} {"\[python nuke.thisNode().input(0).format().t()]"}}
+name Crop1
+xpos -142
+ypos -221
+disable {{!parent.inFrame i}}
+}
+set N6646a990 [stack 0]
+Dot {
+name Dot1
+xpos -108
+ypos -60
+}
+set N664758f0 [stack 0]
+Dot {
+name Dot2
+xpos -177
+ypos -60
+}
+Dot {
+name Dot3
+xpos -177
+ypos 108
+}
+set N6647ef70 [stack 0]
+push $N664758f0
+Invert {
+channels alpha
+name Invert1
+xpos -59
+ypos -87
+}
+push $N664758f0
+Switch {
+inputs 2
+which {{A.chew>=0?0:1}}
+name Switch1
+xpos -142
+ypos -42
+}
+Blur {
+channels alpha
+size {{abs(A.chew)} {w}}
+name FgEdgeBlur2A
+xpos -142
+ypos -16
+}
+Multiply {
+value {1 1 1 {max(FgEdgeBlur2A.size.w*1.5,1) i}}
+name FgEdgeMult2A
+xpos -142
+ypos 22
+}
+Gamma {
+value {1 1 1 {scalarLookup1.scalarOutput i}}
+name FgEdgeGamma3A
+xpos 17
+ypos 7
+}
+set N664b0e30 [stack 0]
+Merge2 {
+inputs 2
+operation minus
+name Merge1
+xpos -142
+ypos 98
+}
+push $N664b0e30
+Dot {
+name Dot5
+xpos -38
+ypos 70
+}
+Dot {
+name Dot4
+xpos -38
+ypos 140
+}
+Switch {
+inputs 2
+which {{Switch1.which}}
+name Switch2
+xpos -142
+ypos 136
+}
+Clamp {
+name Clamp1
+xpos -142
+ypos 162
+}
+Blur {
+size {{A.soften} {A.soften}}
+quality 45
+name BlurResult1A
+xpos -142
+ypos 200
+}
+push $N6647ef70
+Dot {
+name Dot6
+xpos -177
+ypos 248
+}
+Copy {
+inputs 2
+from0 rgba.alpha
+to0 rgba.alpha
+unpremult -mask.a
+name SwitchMatte2A
+xpos -142
+ypos 238
+}
+Clamp {
+name Clamp3
+xpos -142
+ypos 276
+}
+Crop {
+box {{"\[python nuke.thisNode().input(0).format().x()]" i} {"\[python nuke.thisNode().input(0).format().y()]" i} {"\[python nuke.thisNode().input(0).format().r()]" i} {"\[python nuke.thisNode().input(0).format().t()]" i}}
+reformat true
+crop false
+name Crop2
+xpos -142
+ypos 314
+disable {{!parent.inFrame i}}
+}
+Output {
+name Output1
+xpos -142
+ypos 340
+}
+push $N6646a990
+ColorLookup {
+lut {master {}
+  red {}
+  green {}
+  blue {}
+  alpha {curve 1 x5 0.95 0.8 x20 0.5 x40 0.3 x80 0.2 x200 0.1}}
+name scalarLookup1
+xpos 4
+ypos -188
+addUserKnob {20 User}
+addUserKnob {7 scalarOutput}
+scalarOutput {{lut.alpha(abs(A.chew))}}
+}
+end_group
+Dot {
+name Dot112
+label roto
+note_font "Bitstream Vera Sans Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold"
+note_font_size 32
+selected true
+xpos 6940
+ypos 593
+}
+set N66e62a40 [stack 0]
+Dot {
+name Dot113
+selected true
+xpos 6940
+ypos 859
+}
+Roto {
+inputs 0
+cliptype none
+curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097664}
+    {t
+   {{x448a4000 x44a444ec -}}
+   {{x448a4000 x43aeb627 -}}  0
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}  0 0 0
+   {{x448a4000 0 -}}
+   {{x448a4000 1 -}}
+   {{x448a4000 1 -}}  1
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}  0
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}  0
+   {{x448a4000 0 -}}
+   {{x448a4000 1 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 1 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 1 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 0 -}}
+   {{x448a4000 1 -}}}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup BSpline1 512 bspline
+     {{cc
+       {f 8192}
+       {px
+        {x44886000 x44888000 x44890000 x44894000 x44896000 x44898000 x4489e000 x448a0000 x448a2000 x448a4000 x448a6000 x448a8000 x448aa000 x448ac000 x448ae000}
+        {{a t
+       {{x44886000 x3f7ef9db -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f7ef9db}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x44953de4 -}
+       {x449554bf x40092200 1 x40092200 1}
+       {x449694bf x4098ba55 1 x4098ba55 1}
+       {x4498e91d x41656500 1 x41656500 1}
+       {x449bf51d x41addd40 1 x41addd40 1}
+       {x449e5807 x41209340 1 x41209340 1}
+       {x44a0f9b7 x4139c000 1 x4139c000 1}
+       {x 2
+        {x44a42607 -}}
+       {x44a4e001 x40fafd00 1 x40fafd00 1}
+       {x44a61c01 x40e51c80 1 x40e51c80 1}
+       {x44a6aa3a x411619c0 1 x411619c0 1}
+       {x44a87468 x415227c0 1 x415227c0 1}
+       {x44a9f2d9 -}
+       {x44a9d3a2 xc08c7c00 1 0 1}}
+      {{x43ef76e0 0 1 x40f00000 1}
+       {x43f1f6e0 -}
+       {x43eb2dbb xc0e11bc0 1 xc0e11bc0 1}
+       {x43dcdc46 xc18add1b 1 xc18add1b 1}
+       {x43d12446 xc1d04ba8 1 xc1d04ba8 1}
+       {x43c2d2d1 xc16a8ba8 1 xc16a8ba8 1}
+       {x43b3d2d1 -}
+       {x 2
+        {x43b9040b -}}
+       {x43bc8000 x40aad400 1 x40aad400 1}
+       {x43be5aab x4115aaa0 1 x4115aaa0 1}
+       {x43c5daaa x4147fff0 1 x4147fff0 1}
+       {x43cadaaa x4152bb40 1 x4152bb40 1}
+       {x43d3065e x41e73820 1 x41e73820 1}
+       {x43e7065d x423ef9b8 1 0 1}}}
+        {{a t
+       {{x44886000 x3f7fbe77 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f7fbe77}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x449373b6 -}
+       {x44938a91 x40092200 1 x40092200 1}
+       {x4494ca91 x4098ba55 1 x4098ba55 1}
+       {x44971eef x41629680 1 x41629680 1}
+       {x449a1a18 x41addd40 1 x41addd40 1}
+       {x449c8dd9 x4124c920 1 x4124c920 1}
+       {x449f4061 x413bdb00 1 x413bdb00 1}
+       {x 2
+        {x44a26cb1 -}}
+       {x44a2d001 x40cfa800 1 x40cfa800 1}
+       {x44a40c01 x40e51c80 1 x40e51c80 1}
+       {x44a49a3a x4122d3c0 1 x4122d3c0 1}
+       {x44a69750 x415ee1c0 1 x415ee1c0 1}
+       {x44a815c1 -}
+       {x44a79113 xc08c7c00 1 0 1}}
+      {{x43eda578 0 1 x40f00000 1}
+       {x43f02578 -}
+       {x43e95c53 xc0e11bc0 1 xc0e11bc0 1}
+       {x43db0ade xc14f8d4b 1 xc14f8d4b 1}
+       {x43d5e714 xc1d04ba8 1 xc1d04ba8 1}
+       {x43c10169 xc18d7bb8 1 xc18d7bb8 1}
+       {x43b28826 -}
+       {x 2
+        {x43b7b960 -}}
+       {x43b60000 -}
+       {x43b7daab x4115aaa0 1 x4115aaa0 1}
+       {x43bf5aaa x4171d170 1 x4171d170 1}
+       {x43c6f7c2 x417c8cc0 1 x417c8cc0 1}
+       {x43cf2376 x41e73820 1 x41e73820 1}
+       {x43e14f2a x423ef9b8 1 0 1}}}
+        {{a t
+       {{x44886000 x3f79db23 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f79db23}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x4491c3b6 -}
+       {x4491da91 x40092200 1 x40092200 1}
+       {x44931a91 x4098ba55 1 x4098ba55 1}
+       {x44956eef x4155f4d5 1 x4155f4d5 1}
+       {x44981e4e x41addd40 1 x41addd40 1}
+       {x449addd9 x412e4260 1 x412e4260 1}
+       {x449d9061 x413bdb00 1 x413bdb00 1}
+       {x 2
+        {x44a0bcb1 -}}
+       {x44a12001 x40cfa800 1 x40cfa800 1}
+       {x44a25c01 x40e51c80 1 x40e51c80 1}
+       {x44a2ea3a x411619c0 1 x411619c0 1}
+       {x44a4b468 x415227c0 1 x415227c0 1}
+       {x44a632d9 x4135c0e0 1 0 1}      x44a5d531}
+      {{x43eaec35 0 1 x40f00000 1}
+       {x43ed6c35 -}
+       {x43e6a310 xc0e11bc0 1 xc0e11bc0 1}
+       {x43d8519b xc15c2f00 1 xc15c2f00 1}
+       {x43d1fea8 xc1d04ba8 1 xc1d04ba8 1}
+       {x43be4826 xc18ada08 1 xc18ada08 1}
+       {x43af4826 -}
+       {x 2
+        {x43b47960 -}}
+       {x43b2c000 -}
+       {x43b49aab x4115aaa0 1 x4115aaa0 1}
+       {x43bc1aaa x4166e8b0 1 x4166e8b0 1}
+       {x43c30936 x4171a400 1 x4171a400 1}
+       {x43cb34ea x4187afe0 1 0 1}      x43dff03a}}
+        {{a t
+       {{x44886000 x3f7db22d -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f7db22d}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x448ebc6d -}
+       {x448ed348 x40092200 1 x40092200 1}
+       {x44901348 x4098ba55 1 x4098ba55 1}
+       {x449267a6 x4158c355 1 x4158c355 1}
+       {x449527dc x41addd40 1 x41addd40 1}
+       {x4497d690 x4136ae40 1 x4136ae40 1}
+       {x449add4e x414661c0 1 x414661c0 1}
+       {x449e099e x40a80000 1 x40a80000 1}
+       {x449e419e x40a80000 1 x40a80000 1}
+       {x449f7001 x412298c0 1 x412298c0 1}
+       {x44a0cc01 -}
+       {x44a0790b -}
+       {x44a24339 x415227c0 1 x415227c0 1}
+       {x44a3c1aa x4135c0e0 1 0 1}      x44a36402}
+      {{x43e8db85 0 1 x40f00000 1}
+       {x43eb5b85 -}
+       {x43e49260 xc0e11bc0 1 xc0e11bc0 1}
+       {x43d640eb xc1875ae0 1 xc1875ae0 1}
+       {x43cb3156 xc1d04ba8 1 xc1d04ba8 1}
+       {x43bc3776 xc15ac188 1 xc15ac188 1}
+       {x43afd925 -}
+       {x43b50a5f x40ce2740 1 x40ce2740 1}
+       {x43b64a5f -}
+       {x43b04000 -}
+       {x43b1f000 x411a6840 1 x411a6840 1}
+       {x43b9e684 x414f6840 1 x414f6840 1}
+       {x43bee684 x4152bb40 1 x4152bb40 1}
+       {x43c71238 x418f6a10 1 0 1}      x43dbcd88}}
+        {{a t
+       {{x44886000 x3f804189 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f804189}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x448bc6b2 -}
+       {x448bdd8d x40092200 1 x40092200 1}
+       {x448d1d8d x4098ba55 1 x4098ba55 1}
+       {x448f71eb x4174d555 1 x4174d555 1}
+       {x4492da8d x41addd40 1 x41addd40 1}
+       {x4494e0d5 x4121a0c0 1 x4121a0c0 1}
+       {x4497e793 x415eff40 1 x415eff40 1}
+       {x449bd8cf x419a2780 1 x419a2780 1}
+       {x449cb8cf x412dcc80 1 x412dcc80 1}
+       {x449e9001 x41250100 1 x41250100 1}
+       {x449f4cd3 x40a58580 1 x40a58580 1}
+       {x449fdb0c x411619c0 1 x411619c0 1}
+       {x44a1a53a x415227c0 1 x415227c0 1}
+       {x44a323ab x4135c0e0 1 0 1}      x44a2c603}
+      {{x43e0f6e6 0 1 x40f00000 1}
+       {x43e376e6 -}
+       {x43dcadc1 xc0e11bc0 1 xc0e11bc0 1}
+       {x43ce5c4c xc186a735 1 xc186a735 1}
+       {x43c36e67 xc1d04ba8 1 xc1d04ba8 1}
+       {x43b452d7 xc15bcf08 1 xc15bcf08 1}
+       {x43a7f486 -}
+       {x43acc34a x3fc00000 1 x3fc00000 1}
+       {x43ad034a x3fbe5b00 1 x3fbe5b00 1}
+       {x43ae4000 -}
+       {x43ad420e -}
+       {x43b4c20d x4147fff0 1 x4147fff0 1}
+       {x43b9c20d x4152bb40 1 x4152bb40 1}
+       {x43c1edc1 x418f6a10 1 0 1}      x43d6a911}}
+        {{a t
+       {{x44886000 x3f80a3d7 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f80a3d7}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x448d0c81 -}
+       {x448d235c x40092200 1 x40092200 1}
+       {x448e635c x4098ba55 1 x4098ba55 1}
+       {x4490b7ba x41656500 1 x41656500 1}
+       {x4493c3ba x41addd40 1 x41addd40 1}
+       {x449626a4 x41445d60 1 x41445d60 1}
+       {x4499e6a5 x415d8a20 1 x415d8a20 1}
+       {x449d12f5 x41858a00 1 x41858a00 1}
+       {x449e12f5 x41158480 1 x41158480 1}
+       {x449f6907 x40f90900 1 x40f90900 1}
+       {x44a00507 x40951c80 1 x40951c80 1}
+       {x44a09340 x411619c0 1 x411619c0 1}
+       {x44a25d6e x415227c0 1 x415227c0 1}
+       {x44a3dbdf x4135c0e0 1 0 1}      x44a37e37}
+      {{x43d4ee69 0 1 x40f00000 1}
+       {x43d76e69 -}
+       {x43d0a544 xc0e11bc0 1 xc0e11bc0 1}
+       {x43c253cf xc18add1b 1 xc18add1b 1}
+       {x43b69bcf xc1d04ba8 1 xc1d04ba8 1}
+       {x43a84a5a xc13e55c0 1 xc13e55c0 1}
+       {x439ed117 -}
+       {x43a40251 x40900000 1 x40900000 1}
+       {x43a4c251 x3fb84700 1 x3fb84700 1}
+       {x43a572df x3fb1eb80 1 x3fb1eb80 1}
+       {x43a62628 x408676c0 1 x408676c0 1}
+       {x43ada627 x4147fff0 1 x4147fff0 1}
+       {x43b2a627 x4152bb40 1 x4152bb40 1}
+       {x43bad1db x418f6a10 1 0 1}      x43cf8d2b}}
+        {{a t
+       {{x44886000 x3f80e560 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f80e560}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x449153cc -}
+       {x44916aa7 x40092200 1 x40092200 1}
+       {x4492aaa7 x4098ba55 1 x4098ba55 1}
+       {x4494ff05 x41656500 1 x41656500 1}
+       {x44980b05 x41addd40 1 x41addd40 1}
+       {x449a6def x41424280 1 x41424280 1}
+       {x449e1d19 x415b6f40 1 x415b6f40 1}
+       {x44a14969 -}
+       {x44a13969 -}
+       {x44a19cb9 x40cfa800 1 x40cfa800 1}
+       {x44a2d8b9 x40e51c80 1 x40e51c80 1}
+       {x44a366f2 x411619c0 1 x411619c0 1}
+       {x44a53120 x415227c0 1 x415227c0 1}
+       {x44a6af91 x4135c0e0 1 0 1}      x44a651e9}
+      {{x43d32ba4 0 1 x40f00000 1}
+       {x43d5aba4 -}
+       {x43cee27f xc0e11bc0 1 xc0e11bc0 1}
+       {x43c0910a xc18add1b 1 xc18add1b 1}
+       {x43b4d90a xc1d04ba8 1 xc1d04ba8 1}
+       {x43a68795 xc148dc78 1 xc148dc78 1}
+       {x439bbd7b -}
+       {x43a0eeb5 x40da2740 1 x40da2740 1}
+       {x43a28eb5 -}
+       {x43a0d555 -}
+       {x43a2b000 x4115aaa0 1 x4115aaa0 1}
+       {x43aa2fff x4147fff0 1 x4147fff0 1}
+       {x43af2fff x4152bb40 1 x4152bb40 1}
+       {x43b75bb3 x418f6a10 1 0 1}      x43cc1703}}
+        {{a t
+       {{x44886000 x3f810625 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f810625}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x449444f9 -}
+       {x44945bd4 x40092200 1 x40092200 1}
+       {x44959bd4 x4098ba55 1 x4098ba55 1}
+       {x4497f032 x41656500 1 x41656500 1}
+       {x449afc32 x41addd40 1 x41addd40 1}
+       {x449d5f1c x413385e0 1 x413385e0 1}
+       {x44a09861 x414cb2a0 1 x414cb2a0 1}
+       {x44a3c4b1 x40100000 1 x40100000 1}
+       {x44a3dcb1 x3ff6a000 1 x3ff6a000 1}
+       {x44a44001 x40cfa800 1 x40cfa800 1}
+       {x44a57c01 x40dc3900 1 x40dc3900 1}
+       {x44a5f873 x4111a800 1 x4111a800 1}
+       {x44a7c2a1 x415227c0 1 x415227c0 1}
+       {x44a94112 -}
+       {x44a80114 xbfea1e00 1 0 1}}
+      {{x43d8fb5e 0 1 x40f00000 1}
+       {x43db7b5e -}
+       {x43d4b239 xc0e11bc0 1 xc0e11bc0 1}
+       {x43c660c4 xc18add1b 1 xc18add1b 1}
+       {x43baa8c4 xc1d04ba8 1 xc1d04ba8 1}
+       {x43ac574f xc16004f0 1 xc16004f0 1}
+       {x439ea826 -}
+       {x43a3d960 x40ca2740 1 x40ca2740 1}
+       {x43a4f960 -}
+       {x43a34000 -}
+       {x43a51aab x40d6e380 1 x40d6e380 1}
+       {x43a9f71c x411dc710 1 x411dc710 1}
+       {x43aef71c x4152bb40 1 x4152bb40 1}
+       {x43b722d0 x41f5da80 1 x41f5da80 1}
+       {x43cd358b x425144b0 1 0 1}}}
+        {{a t
+       {{x44886000 x3f822d0e -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f822d0e}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x44961f80 -}
+       {x4496365b x40092200 1 x40092200 1}
+       {x4497765b x4098ba55 1 x4098ba55 1}
+       {x4499cab9 x41656500 1 x41656500 1}
+       {x449cd6b9 x41addd40 1 x41addd40 1}
+       {x449f39a3 x412d3500 1 x412d3500 1}
+       {x44a24061 x414661c0 1 x414661c0 1}
+       {x 2
+        {x44a56cb1 -}}
+       {x44a5d001 x40cfa800 1 x40cfa800 1}
+       {x44a70c01 x410b0000 1 x410b0000 1}
+       {x44a7fc01 x412e8b80 1 x412e8b80 1}
+       {x44a9c62f x415227c0 1 x415227c0 1}
+       {x44ab44a0 x4135c0e0 1 0 1}      x44aae6f8}
+      {{x43da8a86 0 1 x40f00000 1}
+       {x43dd0a86 -}
+       {x43d64161 xc0e11bc0 1 xc0e11bc0 1}
+       {x43c7efec xc18add1b 1 xc18add1b 1}
+       {x43bc37ec xc1d04ba8 1 xc1d04ba8 1}
+       {x43ade677 xc1557e30 1 xc1557e30 1}
+       {x43a18826 -}
+       {x 2
+        {x43a6b960 -}}
+       {x43a50000 -}
+       {x43a6daab x40dfc700 1 x40dfc700 1}
+       {x43abfe38 x412238d0 1 x412238d0 1}
+       {x43b0fe38 x4152bb40 1 x4152bb40 1}
+       {x43b929ec x418f6a10 1 0 1}      x43cde53c}}
+        {{a t
+       {{x44886000 x3f80a3d7 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f80a3d7}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x449684d5 -}
+       {x44969bb0 x40092200 1 x40092200 1}
+       {x4497dbb0 x4098ba55 1 x4098ba55 1}
+       {x449a300e x41656500 1 x41656500 1}
+       {x449d3c0e x41addd40 1 x41addd40 1}
+       {x449f9ef8 x412d3500 1 x412d3500 1}
+       {x44a2a5b6 x414661c0 1 x414661c0 1}
+       {x 2
+        {x44a5d206 -}}
+       {x44a7e001 x41527ec0 1 x41527ec0 1}
+       {x44a91c01 x40e51c80 1 x40e51c80 1}
+       {x44a9aa3a x411619c0 1 x411619c0 1}
+       {x44ab7468 x415227c0 1 x415227c0 1}
+       {x44acf2d9 -}
+       {x44ad5082 xc08c7c00 1 0 1}}
+      {{x43dfd530 0 1 x40f00000 1}
+       {x43e25530 -}
+       {x43db8c0b xc0e11bc0 1 xc0e11bc0 1}
+       {x43cd3a96 xc18add1b 1 xc18add1b 1}
+       {x43c18296 xc1d04ba8 1 xc1d04ba8 1}
+       {x43b33121 xc1557e30 1 xc1557e30 1}
+       {x43a6d2d0 -}
+       {x 2
+        {x43ac040a -}}
+       {x43a80000 -}
+       {x43a9daab x4115aaa0 1 x4115aaa0 1}
+       {x43b15aaa x4147fff0 1 x4147fff0 1}
+       {x43b65aaa x4152bb40 1 x4152bb40 1}
+       {x43be865e x41e73820 1 x41e73820 1}
+       {x43d015f9 x423ef9b8 1 0 1}}}
+        {{a t
+       {{x44886000 x3f80624e -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f80624e}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x4496b62b -}
+       {x4496cd06 x40092200 1 x40092200 1}
+       {x44980d06 x4098ba55 1 x4098ba55 1}
+       {x449a6164 x41656500 1 x41656500 1}
+       {x449d6d64 x41addd40 1 x41addd40 1}
+       {x449fd04e x412d3500 1 x412d3500 1}
+       {x44a2d70c x414661c0 1 x414661c0 1}
+       {x 2
+        {x44a6035c -}}
+       {x44a8e001 x418314a0 1 x418314a0 1}
+       {x44aa1c01 x40e51c80 1 x40e51c80 1}
+       {x44aaaa3a x411619c0 1 x411619c0 1}
+       {x44ac7468 x415227c0 1 x415227c0 1}
+       {x44adf2d9 x4135c0e0 1 0 1}      x44ad9531}
+      {{x43e65a85 0 1 x40f00000 1}
+       {x43e8da85 -}
+       {x43e21160 xc0e11bc0 1 xc0e11bc0 1}
+       {x43d3bfeb xc18add1b 1 xc18add1b 1}
+       {x43c807eb xc1d04ba8 1 xc1d04ba8 1}
+       {x43b9b676 xc1557e30 1 xc1557e30 1}
+       {x43ad5825 -}
+       {x 2
+        {x43b2895f -}}
+       {x43ab8000 -}
+       {x43ad5aab x4115aaa0 1 x4115aaa0 1}
+       {x43b4daaa x4147fff0 1 x4147fff0 1}
+       {x43b9daaa x4152bb40 1 x4152bb40 1}
+       {x43c2065e x418f6a10 1 0 1}      x43d6c1ae}}
+        {{a t
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x4496f62a -}
+       {x44970d05 x40092200 1 x40092200 1}
+       {x44984d05 x4098ba55 1 x4098ba55 1}
+       {x449aa163 x41656500 1 x41656500 1}
+       {x449dad63 x41addd40 1 x41addd40 1}
+       {x44a0104d x412d3500 1 x412d3500 1}
+       {x44a3170b x414661c0 1 x414661c0 1}
+       {x 2
+        {x44a6435b -}}
+       {x44a92001 x418314c0 1 x418314c0 1}
+       {x44aa5c01 x40e51c80 1 x40e51c80 1}
+       {x44aaea3a x411619c0 1 x411619c0 1}
+       {x44acb468 x415227c0 1 x415227c0 1}
+       {x44ae32d9 x4135c0e0 1 0 1}      x44add531}
+      {{x43ebcfdb 0 1 x40f00000 1}
+       {x43ee4fdb -}
+       {x43e786b6 xc0e11bc0 1 xc0e11bc0 1}
+       {x43d93541 xc18add1b 1 xc18add1b 1}
+       {x43cd7d41 xc1d04ba8 1 xc1d04ba8 1}
+       {x43bf2bcc xc1557e30 1 xc1557e30 1}
+       {x43b2cd7b -}
+       {x 2
+        {x43b7feb5 -}}
+       {x43b84000 x3fc3e100 1 x3fc3e100 1}
+       {x43ba1aab x4115aaa0 1 x4115aaa0 1}
+       {x43c19aaa x4147fff0 1 x4147fff0 1}
+       {x43c69aaa x4152bb40 1 x4152bb40 1}
+       {x43cec65e x418f6a10 1 0 1}      x43e381ae}}
+        {{a t
+       {{x44886000 x3f7f7cee -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f7f7cee}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x4496822b -}
+       {x44969906 x40092200 1 x40092200 1}
+       {x4497d906 x4098ba55 1 x4098ba55 1}
+       {x449a2d64 x41656500 1 x41656500 1}
+       {x449d3964 x41addd40 1 x41addd40 1}
+       {x449f9c4e x412d3500 1 x412d3500 1}
+       {x44a2a30c x414661c0 1 x414661c0 1}
+       {x 2
+        {x44a5cf5c -}}
+       {x44a8c001 x418594a0 1 x418594a0 1}
+       {x44a9fc01 x40e51c80 1 x40e51c80 1}
+       {x44aa8a3a x411619c0 1 x411619c0 1}
+       {x44ac5468 x415227c0 1 x415227c0 1}
+       {x44add2d9 x4135c0e0 1 0 1}      x44ad7531}
+      {{x43ee5531 0 1 x40f00000 1}
+       {x43f0d531 -}
+       {x43ea0c0c xc0e11bc0 1 xc0e11bc0 1}
+       {x43dbba97 xc18add1b 1 xc18add1b 1}
+       {x43d00297 xc1d04ba8 1 xc1d04ba8 1}
+       {x43c1b122 xc1557e30 1 xc1557e30 1}
+       {x43b552d1 -}
+       {x 2
+        {x43ba840b -}}
+       {x43be0000 x40aad400 1 x40aad400 1}
+       {x43bfdaab x4115aaa0 1 x4115aaa0 1}
+       {x43c75aaa x4147fff0 1 x4147fff0 1}
+       {x43cc5aaa x4152bb40 1 x4152bb40 1}
+       {x43d4865e x418f6a10 1 0 1}      x43e941ae}}}}
+      {cc
+       {f 8192}
+       {px
+        {x44886000 x44888000 x44890000 x44894000 x44896000 x44898000 x4489e000 x448a0000 x448a2000 x448a4000 x448a6000 x448a8000 x448aa000 x448ac000 x448ae000}
+        {{a t
+       {{x44886000 x3f7ef9db -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f7ef9db}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 14
+        {xc0662600 -}}      xc0662600}
+      {{x 14
+        {x40c7a100 -}}      x40c7a100}}
+        {{a t
+       {{x44886000 x3f7fbe77 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f7fbe77}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 4
+        {xc0620e00 -}}
+       {x4053d800 -}
+       {x 9
+        {xc0620e00 -}}      xc0620e00}
+      {{x 4
+        {x40e9f740 -}}
+       {x413c8fe0 -}
+       {x 9
+        {x40e9f740 -}}      x40e9f740}}
+        {{a t
+       {{x44886000 x3f79db23 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f79db23}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 14
+        {xbffacc00 -}}      xbffacc00}
+      {{x 14
+        {x40933440 -}}      x40933440}}
+        {{a t
+       {{x44886000 x3f7db22d -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f7db22d}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 14
+        {xc000a400 -}}      xc000a400}
+      {{x 14
+        {x409280c0 -}}      x409280c0}}
+        {{a t
+       {{x44886000 x3f804189 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f804189}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 4
+        {xc09f6a00 -}}
+       {xc173ea80 -}
+       {x 9
+        {xc09f6a00 -}}      xc09f6a00}
+      {{x 4
+        {x3edaa000 -}}
+       {x40d7c500 -}
+       {x 9
+        {x3edaa000 -}}      x3edaa000}}
+        {{a t
+       {{x44886000 x3f80a3d7 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f80a3d7}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 9
+        {xc140b000 -}}
+       {x 5
+        {xc0c5ca00 -}}      xc0c5ca00}
+      {{x 9
+        {xc034af80 -}}
+       {x 5
+        {xc076e480 -}}      xc076e480}}
+        {{a t
+       {{x44886000 x3f80e560 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f80e560}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 9
+        {xc19aef40 -}}
+       {x 5
+        {xc0914200 -}}      xc0914200}
+      {{x 9
+        {xc0f05e00 -}}
+       {x 5
+        {xc10e40c0 -}}      xc10e40c0}}
+        {{a t
+       {{x44886000 x3f810625 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f810625}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 14
+        {x3f55e800 -}}      x3f55e800}
+      {{x 14
+        {xc09dc000 -}}      xc09dc000}}
+        {{a t
+       {{x44886000 x3f822d0e -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f822d0e}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 14
+        {x3fc73c00 -}}      x3fc73c00}
+      {{x 14
+        {xc0980cc0 -}}      xc0980cc0}}
+        {{a t
+       {{x44886000 x3f80a3d7 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f80a3d7}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 14
+        {x4015fe00 -}}      x4015fe00}
+      {{x 14
+        {xc08d5600 -}}      xc08d5600}}
+        {{a t
+       {{x44886000 x3f80624e -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f80624e}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 14
+        {x4098ed00 -}}      x4098ed00}
+      {{x 14
+        {xbfbc3700 -}}      xbfbc3700}}
+        {{a t
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 14
+        {x409ff100 -}}      x409ff100}
+      {{x 14
+        {x3e0a5000 -}}      x3e0a5000}}
+        {{a t
+       {{x44886000 x3f7f7cee -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x3f7f7cee}}	 rp
+       {{x44886000 1 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 1}}	 te
+       {{x44886000 x40800000 -}
+        {x44888000}
+        {x44890000}
+        {x44894000}
+        {x44896000}
+        {x44898000}
+        {x4489e000}
+        {x448a0000}
+        {x448a2000}
+        {x448a4000}
+        {x448a6000}
+        {x448a8000}
+        {x448aa000}
+        {x448ac000}
+        {x448ae000 x40800000}}}
+      {{x 9
+        {xbe82a000 -}}
+       {x 5
+        {x3f8fe800 -}}      x3f8fe800}
+      {{x 9
+        {x405f8780 -}}
+       {x 5
+        {x409be700 -}}      x409be700}}}}}
+     {tx x448a4000 x44a444ec x43aeb627}
+     {a osw x41200000 osf 0 str 1 spx x45000000 spy x44568000 sb 1 ltn x44886000 ltm x44886000 tt x40c00000 ltt x40400000}}}}}}
+toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 tt 6 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+toolbar_brush_hardness 0.200000003
+toolbar_source_transform_scale {1 1}
+toolbar_source_transform_center {2048 858}
+colorOverlay {0 0 0 0}
+lifetime_type "frame to end"
+lifetime_start 1091
+lifetime_end 1091
+motionblur_shutter_offset_type centred
+source_black_outside true
+name Roto19
+selected true
+xpos 7783
+ypos 492
+}
+Blur {
+size 55
+name Blur12
+selected true
+xpos 7783
+ypos 516
+}
+Dot {
+name Dot114
+selected true
+xpos 7817
+ypos 593
+}
+push $N66e62a40
+Dot {
+inputs 0
+name Dot115
+label bg
+note_font "Bitstream Vera Sans Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold Bold"
+note_font_size 32
+selected true
+xpos 7490
+ypos 208
+hide_input true
+}
+Dot {
+name Dot116
+selected true
+xpos 7490
+ypos 376
+}
+set N670a5b10 [stack 0]
+Dot {
+name Dot117
+selected true
+xpos 7157
+ypos 376
+}
+Group {
+inputs 2
+name colourBleed_EB1
+selected true
+xpos 7123
+ypos 590
+addUserKnob {20 ColourBleed}
+addUserKnob {14 shrinkMatte l "adjust A" R -20 20}
+shrinkMatte 4.6
+addUserKnob {14 growTexture l "grow RGB" R 0 100}
+growTexture 9.4
+addUserKnob {41 blend l "blend edge" T Blur1.size}
+addUserKnob {6 invertMatte l "Invert A" +STARTLINE}
+invertMatte true
+addUserKnob {26 ""}
+addUserKnob {41 mix T Keymix1.mix}
+}
+Input {
+inputs 0
+name A
+xpos -220
+ypos 111
+number 1
+}
+Invert {
+channels alpha
+name Invert1
+xpos -220
+ypos 195
+disable {{-invertMatte+1}}
+}
+FilterErode {
+channels alpha
+size {{-shrinkMatte.w} {-shrinkMatte.h}}
+name FilterErode1
+xpos -220
+ypos 229
+}
+Grade {
+channels alpha
+whitepoint 0.99
+black_clamp false
+white_clamp true
+name Grade6
+xpos -220
+ypos 262
+}
+set N670d6fd0 [stack 0]
+Blur {
+channels alpha
+size 7
+name Blur1
+label "\[value size]"
+xpos -219
+ypos 321
+}
+Dot {
+name Dot4
+xpos -186
+ypos 416
+}
+push $N670d6fd0
+Input {
+inputs 0
+name RGB
+xpos -399
+ypos 110
+}
+Shuffle {
+alpha white
+name Shuffle1
+label "\[value in 1]"
+xpos -399
+ypos 238
+}
+set N6700e3c0 [stack 0]
+Merge2 {
+inputs 2
+operation stencil
+name Merge1
+xpos -312
+ypos 348
+}
+Blur {
+channels rgba
+size {{growTexture.w} {growTexture.h}}
+maskChannelMask -rgba.alpha
+name Blur2
+xpos -312
+ypos 373
+}
+Unpremult {
+name Unpremult1
+xpos -312
+ypos 397
+}
+Expression {
+expr3 a==0?0:1
+name Expression2
+xpos -312
+ypos 421
+}
+push $N6700e3c0
+Dot {
+name Dot5
+xpos -365
+ypos 421
+}
+Keymix {
+inputs 3
+name Keymix1
+xpos -312
+ypos 499
+}
+Output {
+name Output
+xpos -312
+ypos 622
+}
+end_group
+push $N670a5b10
+Keymix {
+inputs 3
+name Keymix5
+selected true
+xpos 7456
+ypos 584
+}
+Copy {
+inputs 2
+from0 rgba.alpha
+to0 rgba.alpha
+name Copy16
+selected true
+xpos 7456
+ypos 850
+}
+Premult {
+name Premult15
+selected true
+xpos 7456
+ypos 907
+}
+Dot {
+name Dot118
+selected true
+xpos 7490
+ypos 1168
+}
+push 0
+Merge2 {
+inputs 2
+bbox B
+name Merge11
+selected true
+xpos 6492
+ypos 1165
+}
