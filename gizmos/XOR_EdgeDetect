@@ -1,0 +1,145 @@
+set cut_paste_input [stack 0]
+version 11.3 v6
+push $cut_paste_input
+Dot {
+name Dot112
+label bg
+note_font "Bitstream Vera Sans Bold Bold"
+note_font_size 32
+selected true
+xpos -412
+ypos -687
+}
+Dot {
+name Dot113
+selected true
+xpos -412
+ypos -628
+}
+set N70840f0 [stack 0]
+Dot {
+name Dot114
+selected true
+xpos -634
+ypos -628
+}
+push $N70840f0
+Dot {
+name Dot115
+selected true
+xpos -412
+ypos -508
+}
+Group {
+inputs 2
+name XOR_EdgeDetect4
+tile_color 0xe9ff55ff
+selected true
+xpos -668
+ypos -511
+addUserKnob {20 User}
+addUserKnob {26 inEdge l "" +STARTLINE T IN}
+addUserKnob {41 size l Size t in/out T FilterErode10.size}
+addUserKnob {41 size_2 l Blur -STARTLINE T Blur1.size}
+addUserKnob {26 outEdge l "" +STARTLINE T OUT}
+addUserKnob {41 size_1 l size T FilterErode11.size}
+addUserKnob {41 size_3 l Blur -STARTLINE T Blur2.size}
+addUserKnob {26 ""}
+addUserKnob {26 Matte l "" +STARTLINE T MATTE}
+addUserKnob {41 value l Opacity T Multiply1.value}
+addUserKnob {41 disable_1 l Disable t "\t" T Multiply1.disable}
+}
+Input {
+inputs 0
+name mask
+xpos -191
+ypos 158
+number 1
+}
+Shuffle {
+red alpha
+green alpha
+blue alpha
+name Shuffle1
+label "\[value in 1]"
+xpos -191
+ypos 254
+disable {{!alpha==0}}
+}
+Input {
+inputs 0
+name Input1
+xpos 45
+ypos -202
+}
+Dot {
+name Dot118
+xpos 70
+ypos -105
+}
+set N6c50c8a0 [stack 0]
+FilterErode {
+size 0
+name FilterErode10
+xpos 45
+ypos -47
+}
+Blur {
+channels rgba
+name Blur1
+xpos 45
+ypos -9
+}
+push $N6c50c8a0
+Dot {
+name Dot120
+xpos 223
+ypos -105
+}
+FilterErode {
+size -0.5
+name FilterErode11
+xpos 198
+ypos -48
+}
+Blur {
+channels rgba
+size 13
+name Blur2
+xpos 198
+ypos -10
+}
+Dot {
+name Dot119
+xpos 223
+ypos 57
+}
+Merge2 {
+inputs 2
+operation xor
+name Merge63
+xpos 45
+ypos 62
+}
+Crop {
+box {0 0 {Input1.width} {Input1.height}}
+reformat true
+crop false
+name Crop1
+xpos 45
+ypos 170
+}
+Multiply {
+inputs 1+1
+name Multiply1
+label "\[value value]"
+selected true
+xpos 45
+ypos 242
+}
+Output {
+name Output1
+xpos 45
+ypos 446
+}
+end_group
