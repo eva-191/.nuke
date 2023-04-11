@@ -1,0 +1,162 @@
+set cut_paste_input [stack 0]
+version 11.3 v6
+push $cut_paste_input
+Group {
+name colourWrap2
+tile_color 0xff6400ff
+selected true
+xpos -216
+ypos -942
+addUserKnob {20 User l wrap}
+addUserKnob {41 diffuse T Blur_DIFFUSE.size}
+addUserKnob {41 spread T Blur_SPREAD.size}
+addUserKnob {41 falloff T Gamma_FALLOFF.value}
+addUserKnob {41 white l gain T Grade_GAIN.white}
+addUserKnob {41 mix T Keymix_WRAP.mix}
+addUserKnob {26 sp_1 l "" +STARTLINE T "    "}
+addUserKnob {6 fgPremultiplied l "fg premultiplied" +STARTLINE}
+fgPremultiplied true
+addUserKnob {26 sp l "" +STARTLINE T "    "}
+addUserKnob {26 info l "" +STARTLINE T "colourWrap v1.1 (c) ned baker 2020"}
+}
+Input {
+inputs 0
+name mask
+xpos 1500
+ypos 369
+number 2
+}
+Invert {
+name Invert1
+xpos 1500
+ypos 531
+}
+Dot {
+name Dot3
+xpos 1534
+ypos 1254
+}
+Input {
+inputs 0
+name fg
+xpos 510
+ypos 369
+}
+set N148977d0 [stack 0]
+Dot {
+name Dot268
+xpos 764
+ypos 540
+}
+set N1489b6d0 [stack 0]
+Dot {
+name Dot269
+xpos 984
+ypos 540
+}
+set Nafc16e0 [stack 0]
+Dot {
+name Dot1
+xpos 1204
+ypos 540
+}
+Dot {
+name Dot2
+xpos 1204
+ypos 1212
+}
+push $Nafc16e0
+Dot {
+name Dot270
+xpos 984
+ypos 876
+}
+push $N1489b6d0
+Invert {
+name Invert7
+xpos 730
+ypos 615
+}
+Blur {
+channels alpha
+size 140
+name Blur_SPREAD
+xpos 730
+ypos 663
+}
+Gamma {
+channels alpha
+name Gamma_FALLOFF
+xpos 730
+ypos 699
+}
+Input {
+inputs 0
+name bg
+xpos 290
+ypos 369
+number 1
+}
+Remove {
+operation keep
+channels rgb
+name Remove1
+label "\[value channels]"
+xpos 290
+ypos 531
+}
+Grade {
+black_clamp false
+name Grade_GAIN
+xpos 290
+ypos 621
+}
+Blur {
+channels rgb
+size 100
+name Blur_DIFFUSE
+xpos 290
+ypos 663
+}
+push $N148977d0
+Unpremult {
+name Unpremult1
+xpos 510
+ypos 537
+disable {{!fgPremultiplied}}
+}
+Keymix {
+inputs 3
+channels rgb
+mix 0.055
+name Keymix_WRAP
+label "\[value channels]"
+xpos 510
+ypos 741
+}
+Copy {
+inputs 2
+from0 rgba.alpha
+to0 rgba.alpha
+name Copy6
+xpos 510
+ypos 909
+}
+Premult {
+name Premult1
+xpos 510
+ypos 957
+disable {{!fgPremultiplied}}
+}
+Keymix {
+inputs 3
+name Keymix_MASK
+xpos 510
+ypos 1287
+}
+Output {
+name Output1
+xpos 510
+ypos 1461
+}
+end_group
