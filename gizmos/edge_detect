@@ -1,0 +1,121 @@
+set cut_paste_input [stack 0]
+version 11.3 v6
+push $cut_paste_input
+Group {
+ name colourBleed_EB1
+ selected true
+ xpos -346
+ ypos 20184
+ addUserKnob {20 ColourBleed}
+ addUserKnob {14 shrinkMatte l "adjust A" R -20 20}
+ shrinkMatte 2
+ addUserKnob {14 growTexture l "grow RGB" R 0 100}
+ growTexture 2.2
+ addUserKnob {41 blend l "blend edge" T Blur1.size}
+ addUserKnob {6 invertMatte l "Invert A" +STARTLINE}
+ invertMatte true
+ addUserKnob {26 ""}
+ addUserKnob {41 mix T Keymix1.mix}
+}
+ Input {
+  inputs 0
+  name A
+  xpos -220
+  ypos 111
+  number 1
+ }
+ Invert {
+  channels alpha
+  name Invert1
+  xpos -220
+  ypos 195
+  disable {{-invertMatte+1}}
+ }
+ FilterErode {
+  channels alpha
+  size {{-shrinkMatte.w} {-shrinkMatte.h}}
+  name FilterErode1
+  xpos -220
+  ypos 229
+ }
+ Grade {
+  channels alpha
+  whitepoint 0.99
+  black_clamp false
+  white_clamp true
+  name Grade6
+  xpos -220
+  ypos 262
+ }
+set Nbb21de10 [stack 0]
+ Blur {
+  channels alpha
+  name Blur1
+  label "\[value size]"
+  xpos -219
+  ypos 321
+ }
+ Dot {
+  name Dot4
+  xpos -186
+  ypos 416
+ }
+push $Nbb21de10
+ Input {
+  inputs 0
+  name RGB
+  xpos -399
+  ypos 110
+ }
+ Shuffle {
+  alpha white
+  name Shuffle1
+  label "\[value in 1]"
+  xpos -399
+  ypos 238
+ }
+set N45c20670 [stack 0]
+ Merge2 {
+  inputs 2
+  operation stencil
+  name Merge1
+  xpos -312
+  ypos 348
+ }
+ Blur {
+  channels rgba
+  size {{growTexture.w} {growTexture.h}}
+  maskChannelMask -rgba.alpha
+  name Blur2
+  xpos -312
+  ypos 373
+ }
+ Unpremult {
+  name Unpremult1
+  xpos -312
+  ypos 397
+ }
+ Expression {
+  expr3 a==0?0:1
+  name Expression2
+  xpos -312
+  ypos 421
+ }
+push $N45c20670
+ Dot {
+  name Dot5
+  xpos -365
+  ypos 421
+ }
+ Keymix {
+  inputs 3
+  name Keymix1
+  xpos -312
+  ypos 499
+ }
+ Output {
+  name Output
+  xpos -312
+  ypos 622
+ }
+end_group
