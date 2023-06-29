@@ -1,0 +1,755 @@
+set cut_paste_input [stack 0]
+version 11.3 v6
+push $cut_paste_input
+Group {
+ name GWrap_v03_3
+ help staybe.
+ note_font Verdana
+ selected true
+ xpos 85
+ ypos 19926
+ mapsize {0.15 0.15}
+ addUserKnob {20 gWrap}
+ addUserKnob {26 Description l "" +STARTLINE T ":Gwrap:\n\nAdds Light wrap.  Option to view different output.\nUser has control over Light Flare LumaKey."}
+ addUserKnob {26 ""}
+ addUserKnob {4 outputView l "Output View" t "Chose one to view while adjusting" M {"Final Output" "Light Flare" "Light Flare Key" "Wrap All"}}
+ addUserKnob {26 "" l "<b><u>Light Flare</u></b>"}
+ addUserKnob {20 LightFlareLumaKey l "Light Flare Luma Key" n 1}
+ LightFlareLumaKey 0
+ addUserKnob {41 range l "Luma Key Range " T Keyer2.range}
+ addUserKnob {20 endGroup n -1}
+ addUserKnob {7 WrapFlare_amount l Amount}
+ WrapFlare_amount 0.115
+ addUserKnob {14 WrapFlare_size l Size R 0 100}
+ WrapFlare_size 27
+ addUserKnob {18 Mult_Flare l Mult R 0 2}
+ Mult_Flare 0.79
+ addUserKnob {6 Mult_Flare_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {26 "" l "<b><u>Wrap All</u></b>"}
+ addUserKnob {7 WrapAll_amount l Amount}
+ addUserKnob {14 WrapAll_size l Size R 0 20}
+ addUserKnob {18 WrapAllMult l Mult R 0 2}
+ WrapAllMult {0.8 0.711396 0.411549}
+ addUserKnob {6 WrapAllMult_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ WrapAllMult_panelDropped true
+ addUserKnob {26 "" l "<b><u>Bleed Color</u></b>"}
+ addUserKnob {7 iColor_amount l Amount}
+ iColor_amount 1
+ addUserKnob {18 ColorBleedMult l Mult R 0 2}
+ ColorBleedMult 2
+ addUserKnob {6 ColorBleedMult_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {26 bgWashText l "<b><u>BG Wash</u></b>"}
+ addUserKnob {41 bgWash T Merge17.mix}
+ addUserKnob {6 pblacks l "Preserve Blacks" +STARTLINE}
+ pblacks true
+ addUserKnob {26 ""}
+ addUserKnob {7 overallMix l mix}
+ overallMix 1
+ addUserKnob {6 premultiplied l "A premultiplied" +STARTLINE}
+ premultiplied true
+ addUserKnob {6 mask t "click to use a mask" +STARTLINE}
+ addUserKnob {26 ""}
+}
+ Input {
+  inputs 0
+  name InputMask
+  xpos 717
+  ypos 1160
+  number 2
+ }
+ Constant {
+  inputs 0
+  color 1
+  name Constant1
+  xpos 573
+  ypos 1208
+ }
+ Crop {
+  box {0 0 {parent.Crop1.box.r i} {parent.Crop1.box.t i}}
+  name Crop2
+  xpos 573
+  ypos 1319
+ }
+ Switch {
+  inputs 2
+  which {{"\[value parent.mask]" i x15 0}}
+  name Switch2
+  xpos 717
+  ypos 1319
+ }
+ Dot {
+  name Dot29
+  xpos 751
+  ypos 1474
+ }
+set N5f635f00 [stack 0]
+ Input {
+  inputs 0
+  name FG
+  xpos -158
+  ypos 56
+ }
+ AddChannels {
+  channels rgba
+  name AddChannels1
+  xpos -158
+  ypos 111
+ }
+ Dot {
+  name Dot27
+  xpos -124
+  ypos 196
+ }
+set N60305810 [stack 0]
+ Dot {
+  name Dot1
+  xpos -124
+  ypos 378
+ }
+set N5c2eaa00 [stack 0]
+ Dot {
+  name Dot7
+  xpos -570
+  ypos 378
+ }
+ Dot {
+  name Dot46
+  xpos -570
+  ypos 2447
+ }
+ Dot {
+  name Dot15
+  xpos 937
+  ypos 2447
+ }
+set N6e33ab50 [stack 0]
+ Dot {
+  name Dot28
+  xpos 937
+  ypos 2495
+ }
+set N6e33f680 [stack 0]
+push $N5c2eaa00
+ Input {
+  inputs 0
+  name BG
+  label "\n"
+  xpos 2264
+  ypos 48
+  number 1
+ }
+ AddChannels {
+  channels rgba
+  name AddChannels2
+  xpos 2264
+  ypos 119
+ }
+ Dot {
+  name Dot2
+  xpos 2298
+  ypos 235
+ }
+set Nc749d030 [stack 0]
+ Dot {
+  name Dot3
+  xpos 1736
+  ypos 235
+ }
+set Nc7591ce0 [stack 0]
+ Dot {
+  name Dot20
+  xpos 1059
+  ypos 237
+ }
+ Copy {
+  inputs 2
+  from0 rgba.alpha
+  to0 rgba.alpha
+  name Copy3
+  xpos 1025
+  ypos 368
+ }
+ Invert {
+  channels {-rgba.red -rgba.green -rgba.blue rgba.alpha}
+  name Invert1
+  xpos 1025
+  ypos 421
+ }
+ Premult {
+  name Premult2
+  xpos 1025
+  ypos 476
+ }
+set Nc7794e10 [stack 0]
+ Crop {
+  box {0 0 {parent.Crop1.box.r i} {parent.Crop1.box.t i}}
+  name Crop5
+  xpos 1025
+  ypos 521
+ }
+ Dot {
+  name Dot9
+  xpos 1059
+  ypos 689
+ }
+set Nc7397900 [stack 0]
+ Dot {
+  name Dot5
+  xpos 1059
+  ypos 774
+ }
+set Nc739c530 [stack 0]
+ Blur {
+  size {{WrapAll_size i} {WrapAll_size i}}
+  name BlurBgWrapSize
+  label "\[value size]"
+  xpos 935
+  ypos 876
+ }
+ Crop {
+  box {0 0 {parent.Crop1.box.r i} {parent.Crop1.box.t i}}
+  name Crop3
+  xpos 935
+  ypos 926
+ }
+push $Nc739c530
+ Blur {
+  size {{BlurBgWrapSize.size*2 i} {BlurBgWrapSize.size*2 i}}
+  name Blur2
+  label "\[value size]"
+  xpos 1074
+  ypos 869
+ }
+ Merge2 {
+  inputs 2
+  bbox A
+  name Merge2
+  xpos 990
+  ypos 1009
+ }
+push $Nc739c530
+ Blur {
+  size {{Blur2.size*2 i} {Blur2.size*2 i}}
+  name Blur3
+  label "\[value size]"
+  xpos 1215
+  ypos 869
+ }
+ Merge2 {
+  inputs 2
+  bbox A
+  name Merge10
+  xpos 1049
+  ypos 1057
+ }
+push $Nc739c530
+ Blur {
+  size {{Blur3.size*2 i} {Blur3.size*2 i}}
+  name Blur4
+  label "\[value size]"
+  xpos 1346
+  ypos 869
+ }
+ Merge2 {
+  inputs 2
+  bbox A
+  name Merge11
+  xpos 1138
+  ypos 1100
+ }
+ Multiply {
+  value {{WrapAllMult.r x15 1} {WrapAllMult.g} {WrapAllMult.b} 1}
+  name Multiply2
+  xpos 1138
+  ypos 1136
+ }
+ Grade {
+  channels all
+  white {{WrapAll_amount i}}
+  name GradeBgWrapAmount
+  xpos 1138
+  ypos 1196
+ }
+ Dot {
+  name Dot37
+  label "WRAP ALL"
+  note_font_size 61
+  xpos 1172
+  ypos 1556
+ }
+ Dot {
+  name Dot6
+  xpos 1172
+  ypos 1691
+ }
+set Nc5195790 [stack 0]
+ Dot {
+  name Dot18
+  xpos 1172
+  ypos 2383
+ }
+ Merge2 {
+  inputs 2
+  operation mask
+  name Merge7
+  xpos 1138
+  ypos 2491
+ }
+ Merge2 {
+  inputs 2
+  operation mask
+  name Merge16
+  xpos 1138
+  ypos 2573
+ }
+push $Nc7591ce0
+ Keyer {
+  operation "luminance key"
+  range {0.02833893084 0.502032777 1 1}
+  name Keyer2
+  xpos 1702
+  ypos 432
+ }
+set Ncc5654b0 [stack 0]
+ Dot {
+  name Dot21
+  xpos 2147
+  ypos 442
+ }
+ Shuffle {
+  red alpha
+  green alpha
+  blue alpha
+  name Shuffle1
+  label "\[value in 1]"
+  note_font Helvetica
+  xpos 2113
+  ypos 546
+ }
+ Dot {
+  name Dot23
+  xpos 2147
+  ypos 2401
+ }
+push $N5f635f00
+push $N6e33ab50
+push $Nc7397900
+push $Ncc5654b0
+ Premult {
+  name Premult1
+  xpos 1702
+  ypos 610
+ }
+ Merge2 {
+  inputs 2
+  operation mask
+  name Merge3
+  xpos 1702
+  ypos 686
+ }
+ Dot {
+  name Dot11
+  xpos 1736
+  ypos 782
+ }
+set Nee1fdcd0 [stack 0]
+ Blur {
+  size {{WrapFlare_size i} {WrapFlare_size i}}
+  name BlurFlare
+  label "\[value size]"
+  xpos 1570
+  ypos 869
+ }
+ Crop {
+  box {0 0 {parent.Crop1.box.r i} {parent.Crop1.box.t i}}
+  name Crop4
+  xpos 1570
+  ypos 928
+ }
+push $Nee1fdcd0
+ Blur {
+  size {{BlurFlare.size*2 i} {BlurFlare.size*2 i}}
+  name Blur6
+  label "\[value size]"
+  xpos 1692
+  ypos 871
+ }
+ Merge2 {
+  inputs 2
+  bbox A
+  name Merge4
+  xpos 1613
+  ypos 976
+ }
+push $Nee1fdcd0
+ Blur {
+  size {{Blur6.size*2 i} {Blur6.size*2 i}}
+  name Blur7
+  label "\[value size]"
+  xpos 1833
+  ypos 872
+ }
+ Merge2 {
+  inputs 2
+  bbox A
+  name Merge12
+  xpos 1676
+  ypos 1046
+ }
+push $Nee1fdcd0
+ Blur {
+  size {{Blur7.size*2 i} {Blur7.size*2 i}}
+  name Blur8
+  label "\[value size]"
+  xpos 1964
+  ypos 872
+ }
+ Merge2 {
+  inputs 2
+  bbox A
+  name Merge14
+  xpos 1744
+  ypos 1087
+ }
+ Multiply {
+  value {{Mult_Flare.r i} {Mult_Flare.g i} {Mult_Flare.b i} 1}
+  name Multiply1
+  xpos 1744
+  ypos 1144
+ }
+ Grade {
+  channels all
+  white {{WrapFlare_amount i}}
+  name FlareAmount
+  xpos 1738
+  ypos 1206
+ }
+ Dot {
+  name Dot25
+  label "LIGHT FLARE"
+  note_font_size 61
+  xpos 1772
+  ypos 1556
+ }
+ Dot {
+  name Dot8
+  xpos 1778
+  ypos 1948
+ }
+set Ned7f6f40 [stack 0]
+ Dot {
+  name Dot17
+  xpos 1778
+  ypos 2373
+ }
+ Merge2 {
+  inputs 2
+  operation mask
+  name Merge13
+  xpos 1744
+  ypos 2443
+ }
+ Merge2 {
+  inputs 2
+  operation mask
+  name Merge20
+  xpos 1744
+  ypos 2508
+ }
+push $N5f635f00
+push $N5c2eaa00
+ Unpremult {
+  name Unpremult1
+  xpos -152
+  ypos 1005
+  disable {{premultiplied*-1+1 i x1 1}}
+ }
+set Ned601120 [stack 0]
+ Dot {
+  name Dot13
+  xpos -324
+  ypos 1009
+ }
+ Dot {
+  name Dot14
+  xpos -324
+  ypos 2013
+ }
+push $N5f635f00
+push $Ned7f6f40
+push $N5f635f00
+push $Nc5195790
+push $N5f635f00
+push $Nc7397900
+ Dot {
+  name Dot10
+  xpos 350
+  ypos 689
+ }
+ Clamp {
+  minimum 0.001
+  maximum 100
+  name Clamp1
+  xpos 316
+  ypos 1144
+ }
+set Ned2f7e40 [stack 0]
+ Merge2 {
+  inputs 2
+  operation mask
+  name Merge15
+  xpos 316
+  ypos 1471
+ }
+ Dot {
+  name Dot24
+  xpos 350
+  ypos 1517
+ }
+push $Ned2f7e40
+ Expression {
+  expr0 (1/(r*.3+g*.59+b*.11))*r
+  expr1 (1/(r*.3+g*.59+b*.11))*g
+  expr2 (1/(r*.3+g*.59+b*.11))*b
+  name Expression1
+  xpos 124
+  ypos 1150
+ }
+push $Ned601120
+ Dot {
+  name Dot12
+  xpos 29
+  ypos 1009
+ }
+ Saturation {
+  saturation {{-iColor_amount+1 i}}
+  name Saturation1
+  xpos -5
+  ypos 1077
+ }
+ Merge2 {
+  inputs 2
+  operation multiply
+  mix {{iColor_amount i}}
+  name Multiply4
+  xpos -5
+  ypos 1150
+ }
+ Multiply {
+  value {{ColorBleedMult.r i x1 1} {ColorBleedMult.g i} {ColorBleedMult.b i} 1}
+  name Multiply3
+  xpos -5
+  ypos 1194
+ }
+ Dot {
+  name Dot36
+  label "BLEED COLOR"
+  note_font_size 45
+  xpos 29
+  ypos 1412
+ }
+push $Ned601120
+ Dot {
+  name Dot16
+  xpos -118
+  ypos 1267
+ }
+ Keymix {
+  inputs 3
+  bbox B
+  name Keymix1
+  xpos -152
+  ypos 1508
+ }
+ Merge2 {
+  inputs 2+1
+  bbox B
+  name Merge5
+  xpos -152
+  ypos 1688
+ }
+ Merge2 {
+  inputs 2+1
+  bbox B
+  name Merge6
+  xpos -152
+  ypos 1945
+ }
+ Copy {
+  inputs 2
+  from0 rgba.alpha
+  to0 rgba.alpha
+  name Copy1
+  xpos -152
+  ypos 2003
+ }
+set Nec8fa420 [stack 0]
+ Dot {
+  name Dot39
+  xpos -118
+  ypos 2079
+ }
+set Nec6f87a0 [stack 0]
+ Dot {
+  name Dot40
+  xpos -194
+  ypos 2079
+ }
+set Nec6fcfb0 [stack 0]
+ Keyer {
+  operation "luminance key"
+  range {0.03362862374 0.845978276 1 1}
+  name Keyer1
+  xpos -311
+  ypos 2069
+ }
+ Dot {
+  name Dot44
+  xpos -277
+  ypos 2122
+ }
+push $Nec6fcfb0
+ Merge2 {
+  inputs 2
+  operation mask
+  name Merge18
+  xpos -228
+  ypos 2119
+  disable {{pblacks*-1+1 i}}
+ }
+ Dot {
+  name Dot41
+  xpos -194
+  ypos 2153
+ }
+set Nec6013c0 [stack 0]
+ Dot {
+  name Dot42
+  xpos -194
+  ypos 2197
+ }
+push $Nc749d030
+ Dot {
+  name Dot35
+  xpos 2298
+  ypos 2108
+ }
+ Blur {
+  channels rgb
+  size 200
+  name BG_Blur
+  xpos 128
+  ypos 2104
+ }
+ Dot {
+  name Dot45
+  xpos 162
+  ypos 2153
+ }
+set Nec4fcf70 [stack 0]
+ Dot {
+  name Dot43
+  xpos 162
+  ypos 2197
+ }
+push $Nec6013c0
+push $Nec4fcf70
+push $Nec6f87a0
+ Merge2 {
+  inputs 2+1
+  operation copy
+  bbox B
+  output rgb
+  name Merge17
+  xpos -152
+  ypos 2149
+ }
+ Merge2 {
+  inputs 2+1
+  operation copy
+  bbox B
+  output rgb
+  mix {{Merge17.mix i}}
+  name Merge19
+  xpos -152
+  ypos 2193
+ }
+push $Nec8fa420
+ Dot {
+  name Dot31
+  xpos -380
+  ypos 2058
+ }
+ Dot {
+  name Dot32
+  xpos -380
+  ypos 2240
+ }
+ Keymix {
+  inputs 3
+  name Keymix2
+  xpos -152
+  ypos 2230
+ }
+ Premult {
+  name Premult3
+  xpos -152
+  ypos 2291
+  disable {{premultiplied*-1+1 i}}
+ }
+ Dot {
+  name Dot22
+  xpos -118
+  ypos 2317
+ }
+ Dot {
+  name Dot26
+  xpos 1915
+  ypos 2317
+ }
+ Dot {
+  name Dot19
+  xpos 1915
+  ypos 2576
+ }
+ Switch {
+  inputs 4
+  which {{"\[value ls parent.outputView]" i}}
+  name Switch1
+  xpos 1744
+  ypos 2573
+ }
+push $N6e33f680
+ Dot {
+  name Dot30
+  xpos 937
+  ypos 2715
+ }
+ Dissolve {
+  inputs 2
+  which {{parent.overallMix i}}
+  name Dissolve1
+  xpos 1744
+  ypos 2705
+ }
+ Output {
+  name Output1
+  xpos 1744
+  ypos 2880
+ }
+push $N60305810
+ Crop {
+  box {0 0 {"\[value input.format.w]" i} {"\[value input.format.h]" i}}
+  name Crop1
+  xpos 535
+  ypos 192
+ }
+push $Nc7794e10
+ Viewer {
+  frame_increment 8
+  input_process false
+  name Viewer1
+  xpos 2030
+  ypos 2833
+ }
+end_group
